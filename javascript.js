@@ -19,11 +19,11 @@ function calcular(){
     const v2 = Number(n2.value);
     const operacoes = seletor.value;
     if(operacoes==="+")
-        resultado.innerHTML = v1 + v2;
+        resultado.innerHTML = (v1 + v2).toFixed(2);
     if(operacoes==="-")
-        resultado.innerHTML = v1 - v2;
+        resultado.innerHTML = (v1 - v2).toFixed(2);
     if(operacoes==="*")
-        resultado.innerHTML = v1 * v2;
+        resultado.innerHTML = (v1 * v2).toFixed(2);
     if(operacoes==="/")
-        resultado.innerHTML = v1 / v2;
+        resultado.innerHTML = (v1 / v2).toFixed(2);
 }
