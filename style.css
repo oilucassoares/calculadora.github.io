@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;700&family=Orbitron:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+h2{
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-size: smaller;   
+}
+
+.principal{
+    width: 300px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-width: 15px;
+    border-style: outset;
+}
+
+.resultado{
+    margin: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;    
+    background-color: silver;
+    border-radius: 5px;
+}
+
+input{
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: silver;
+}
+.operacoes{
+    border-radius: 5px;
+    background-color: turquoise;
+}
+
+@media screen and (max-width: 370px) {
+    .geral{
+        width: 370px;
+        padding: 40px;
+    }
+}
+
+
