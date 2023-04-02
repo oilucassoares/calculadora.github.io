@@ -4,10 +4,10 @@ const seletor = document.querySelector(".operacoes");
 let resultado = document.querySelector(".resultado");
 
 seletor.style.padding="10px"
-n1.style.width="80px"
-n2.style.width="80px"
-n1.style.height="33px"
-n2.style.height="33px"
+n1.style.width="90px"
+n2.style.width="90px"
+n1.style.height="39px"
+n2.style.height="39px"
 
 /*change é "escolha", já o "keyup" é para quando o usuário TIRAR o dedo do teclado, daí atualiza em tempo real.*/
 seletor.addEventListener("change", calcular);
