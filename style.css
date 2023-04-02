@@ -58,11 +58,19 @@ input{
     background-color: turquoise;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 480px) {
     .geral{
-        width: 370px;
-        padding: 40px;
+        width: 100%;
+        padding: 20px;
     }
 }
-
-
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 16px;
+    }    
+}
+@media screen and (max-width: 480px) {
+    .principal{
+        width: 100%;
+    }    
+}
