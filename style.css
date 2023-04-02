@@ -26,11 +26,11 @@ h2{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Orbitron', sans-serif;
-    font-size: smaller;   
+    font-size: 20px;   
 }
 
 .principal{
-    width: 300px;
+    width: 320px;
     padding: 10px;
     background-color: aliceblue;
     border-radius: 5px;
@@ -61,16 +61,12 @@ input{
 @media screen and (max-width: 480px) {
     .geral{
         width: 100%;
-        padding: 20px;
+        padding: 26px;
     }
-}
-@media screen and (max-width: 480px) {
     h2{
-        font-size: 16px;
-    }    
-}
-@media screen and (max-width: 480px) {
+        font-size: 13.9px;
+    }
     .principal{
         width: 100%;
-    }    
+    }
 }
